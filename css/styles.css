@@ -6,6 +6,7 @@
   --main-bg: #2f303a;
   --secondary-bg: #f5f4fa;
   --secondary-accent: #ffffff;
+  --hero-button-hover: #188CE8;
   --main-weight: 400;
   --heading-weight: 700;
 }
@@ -93,6 +94,10 @@ button:focus {
 
   color: var(--secondary-accent);
   background-color: var(--accent-color);
+}
+
+.hero-button:hover {
+    background-color: var(--hero-button-hover);
 }
 
 /* END HERO SECTION */
